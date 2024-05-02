@@ -10,6 +10,36 @@
             function showMessage() {
                 document.getElementById("message").innerHTML = "Hello, world";
             }
+
+            var name = "john";
+            let age = 25;
+            const pi = 3.14;
+
+            function greet (name) {
+                console.log("Hello, " + name + "!");
+            }
+            greet("Alice");
+
+            let score = 85;
+
+            if (score >= 90) {
+                console.log("A Grade");
+            } else if (score >= 80) {
+                console.log("B Grade");
+            } else {
+                console.log("C or Lower");
+            }
+
+            for (let i = 0; i < 5; i++) {
+                console.log("Count: " + i);
+            }
+
+            let Count = 0;
+            while (count < 3) {
+                console.log("Looping...");
+                count++;
+            }
+
         </script>
     </body>
 </html>
