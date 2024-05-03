@@ -40,6 +40,65 @@
                 count++;
             }
 
+            let x = 5;
+            let y = 10;
+            let sum = x + y;
+            let difference = x - y;
+            let product = x * y;
+            let quotient = y / x;
+
+            let greeting = "hello world";
+            let name = "Alice";
+
+            let numbers = [1, 2, 3, 4, 5];
+            console.log(numbers[2]);
+
+            // string methods
+            let message = "hello, world";
+            console.log(message.length);
+            console.log(message.toUpperCase());
+            console.log(message.indexOf("world"));
+
+            // array methods
+            let arrayOfNumbers = [1, 2, 3, 4, 5];
+            console.log(arrayOfNumbers.length);
+            console.log(arrayOfNumbers.reverse());
+            console.log(arrayOfNumbers.join(", "));
+
+            // objects properties methods
+            // create and object
+            const person = {
+                name: "Jody",
+                age: 30,
+                gender: "male",
+                sayHello: function () {
+                    console.log("Hello!");
+                },
+            };
+
+            // Accessing the object
+            console.log(person.name);
+            console.log(person["age"]);
+
+            person.sayHello();
+
+            // adding/updating the object
+            person.age = 35;
+            person.job = "developer";
+
+            console.log(person.age);
+            console.log(person.job);
+
+            // removing properties
+            delete person.gender;
+
+            console.log(person.gender);
+
+
+
+
+
+
         </script>
     </body>
 </html>
