@@ -17,4 +17,19 @@ alert(variableCopy);
 // const variables cannot be changed
 const myBirthday = '18.04.1982';
 
+// uppercase constans
+const COLOR_RED ="#F00";
+const COLOR_ORANGE ="#0F0";
+
+let color = COLOR_ORANGE;
+alert(color);
+
+let admin, username;
+username = "John";
+admin = username;
+alert(admin);
+
+
+
+
 
