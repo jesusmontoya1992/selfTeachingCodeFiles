@@ -38,8 +38,48 @@
 // alert(+true);
 // alert(+"");
 
-let apples = "2";
-let oranges = "3";
-alert(+apples + +oranges);
+// let apples = "2";
+// let oranges = "3";
+// alert(+apples + +oranges);
+
+// Precedence
+// 14 	unary plus 	+
+// 14 	unary negation 	-
+// 13 	exponentiation 	**
+// 12 	multiplication 	*
+// 12 	division 	/
+// 11 	addition 	+
+// 11 	subtraction 	-
+// … 	… 	…
+// 2 	assignment 	=
+
+// chaining assignments
+// let a, b, c;
+// a = b = c = 2 + 2;
+// alert(a);
+// alert(b);
+// alert(c);
+// or
+// c = 2 + 2;
+// b = c;
+// a = c;
+
+// Modify in place
+// let n = 2;
+// n = n + 5;
+// n = n * 2;
+// or
+// let n = 2;
+// n += 5;
+// n *= 2;
+// alert(n);
+
+let n = 2;
+n *= 3 + 5; /*right side is evaluated first */
+alert(n);
+
+
+
+
 
 
