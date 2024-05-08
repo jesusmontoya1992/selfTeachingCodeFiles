@@ -119,8 +119,8 @@
 
 // comma operator
 // only the result of the last comma is returned
-let a = (1 + 2, 3 + 4);
-alert(a);
+// let a = (1 + 2, 3 + 4);
+// alert(a);
 
 
 
