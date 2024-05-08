@@ -74,9 +74,60 @@
 // n *= 2;
 // alert(n);
 
-let n = 2;
-n *= 3 + 5; /*right side is evaluated first */
-alert(n);
+// let n = 2;
+// n *= 3 + 5; /*right side is evaluated first */
+// alert(n);
+
+// increment & decrement
+
+// increment
+// let counter = 2;
+// counter++;
+// alert(counter);
+
+// decrement
+// let counter = 2;
+// counter--;
+// alert(counter);
+
+// prefix * postfix
+// let counter = 1;
+// let a = ++counter; /*Prefix uses new value */
+// alert(a);
+
+// let counter = 1;
+// let a = counter++; /*post fix uses old value */
+// alert(a);
+
+// let counter = 0;
+// counter++;
+// ++counter
+// alert(counter);
+
+// let counter = 0;
+// alert(++counter);
+
+// let counter = 0;
+// alert(counter++);
+
+// increment/decrement precedence
+// let counter = 1;
+// alert(2 * ++counter); /* prefix presedence */
+
+// let counter = 1;
+// alert(2 * counter++); /*No precedence postfix */
+
+// comma operator
+// only the result of the last comma is returned
+let a = (1 + 2, 3 + 4);
+alert(a);
+
+
+
+
+
+
+
 
 
 
