@@ -29,9 +29,28 @@
 // let nickName = "SuperCoder";
 // alert(firstName || lastName || nickName || "Anonymous");
 
-true || alert("Not printed");
-false || alert("printed");
+// true || alert("Not printed");
+// false || alert("printed");
 
 // && operator
+// alert(true && true);
+// alert(false && true);
+// alert(true && false);
+// alert(false && false);
+
+// let hour = 12;
+// let minute = 30;
+// if (hour == 12 && minute == 30) {
+//     alert('The time is 12:30');
+// }
+
+// && if first operand is thruthy, && = second operand. falsy = returns falsy value, ignores the rest
+// alert(1 && 0);
+// alert(1 && 5);
+// alert(null && 5);
+// alert(0 && 'no matter what');
+alert(1 && 2 && null && 3);
+alert(1 && 2 && 3);
+
 
 
