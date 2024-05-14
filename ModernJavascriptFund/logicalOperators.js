@@ -49,8 +49,35 @@
 // alert(1 && 5);
 // alert(null && 5);
 // alert(0 && 'no matter what');
-alert(1 && 2 && null && 3);
-alert(1 && 2 && 3);
+// alert(1 && 2 && null && 3);
+// alert(1 && 2 && 3);
+
+// !Not
+// returns the reverse value
+// alert(!true);
+// alert(!0);
+
+// !!= converts to a boolean type
+// alert(!!"non-empty string");
+// alert(!!null);
+
+let userName = prompt("who is there?", '');
+
+if (userName === "Admin") {
+    let pass = prompt("Password?", "");
+    if (pass === "TheMaster") {
+        alert("Welcome!");
+    } else if (pass === "" || pass === null) {
+        alert("canceled");
+    } else {
+        alert("Wrong password");
+    }
+} else if (userName === "" || userName === null) {
+    alert("canceled");
+} else {
+    alert("I don't know you");
+}
+
 
 
 
