@@ -59,11 +59,11 @@
 // }
 // alert(chars);
 
-function slice (str, start, end) {
-    return Array.from(str).slice(start, end).join("");
-}
-let str = "XPO";
-alert(slice(str, 1, 3));
+// function slice (str, start, end) {
+//     return Array.from(str).slice(start, end).join("");
+// }
+// let str = "XPO";
+// alert(slice(str, 1, 3));
 
 
 
