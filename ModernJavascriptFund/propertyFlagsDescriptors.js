@@ -68,5 +68,5 @@
 // delete user.name;
 // Object.defineProperty(user, "name", {value: "pete"});
 
-// object.defineProperties
+
 
